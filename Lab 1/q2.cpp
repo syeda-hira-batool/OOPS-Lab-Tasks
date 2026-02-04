@@ -2,17 +2,19 @@
 #include <string>
 using namespace std;
 
-struct Book {
+struct Book
+{
     int ID;
     string Booktitle;
     string AuthorName;
     float Price;
 };
 
-int main() {
+int main()
+{
 
     Book b1, b2, b3;
-	
+
     cout << "Enter the Book ID for book 1: ";
     cin >> b1.ID;
     cin.ignore();
@@ -53,17 +55,17 @@ int main() {
     cin >> b3.Price;
 
     cout << "\nDisplaying info:\n";
-	cout << "\nBook 1:";
+    cout << "\nBook 1:";
     cout << "\nID: " << b1.ID;
     cout << "\nAuthor: " << b1.AuthorName;
     cout << "\nTitle: " << b1.Booktitle;
     cout << "\nPrice: " << b1.Price << endl;
-	cout << "\nBook 2:";
+    cout << "\nBook 2:";
     cout << "\nID: " << b2.ID;
     cout << "\nAuthor: " << b2.AuthorName;
     cout << "\nTitle: " << b2.Booktitle;
     cout << "\nPrice: " << b2.Price << endl;
-	cout << "\nBook 3:";
+    cout << "\nBook 3:";
     cout << "\nID: " << b3.ID;
     cout << "\nAuthor: " << b3.AuthorName;
     cout << "\nTitle: " << b3.Booktitle;

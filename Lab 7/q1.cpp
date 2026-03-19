@@ -1,4 +1,5 @@
 #include <iostream>
+#include<string>
 using namespace std;
 
 class Bank {
@@ -35,4 +36,3 @@ int main() {
     B2.calculateInterest(myBalance);
     return 0;
 }
-
